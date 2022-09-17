@@ -1,0 +1,19 @@
+@use 'colors';
+
+*{
+    box-sizing: border-box;
+}
+ 
+body{
+    font-size: 18px;
+    text-align: center;
+    @font-face {
+    font-family: 'DM Sans';
+    font-weight: 400;
+    src: url('https://fonts.google.com/specimen/DM+Sans');
+    }
+    a{ 
+    color: hsl(228, 45%, 44%); 
+    }
+
+}
